@@ -13,7 +13,7 @@
         "eventGridTopic": "[concat('evt-autotagger-', variables('uniqueString'))]",
         "eventGridSubscriptionName": "[concat('evs-autotagger-', variables('uniqueString'))]",
         "appInsightsName": "[concat('insights-autotagger-', variables('uniqueString'))]",
-        "functionAppRepo": "https://github.com/acampb/AzureAutoTaggerFunction.git"
+        "functionAppRepo": "https://github.com/RyanMenVIP/AzureAutoTaggerFunction.git"
     },
     "resources": [
         {
