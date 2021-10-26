@@ -157,10 +157,10 @@
                     ],
                     "advancedFilters": [
                         {
-                            "key": "data.authorization.action",
-                            "operatorType": "StringContains",
+                            "key": "data.claims.appid",
+                            "operatorType": "StringNotIn",
                             "values" :[
-                                "Microsoft.Resources/subscriptions/resourceGroups/write"
+                                "[reference(resourceId('Microsoft.ManagedIdentity/userAssignedIdentities', variables('identityName')), '2018-11-30', 'full').properties.clientid]"
                             ]
                         }
                     ]
