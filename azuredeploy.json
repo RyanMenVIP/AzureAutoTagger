@@ -22,7 +22,10 @@
             ],
             "tags": {
                 "Application": "AzureAutoTagger",
-                "ApplicationUrl": "https://github.com/RyanMenVIP/AzureAutoTagger"
+                "Market": "Seattle",
+                "Name": "Infrastructure",
+                "Manager": "Drew Zhu"
+                
             }
         },
         {
