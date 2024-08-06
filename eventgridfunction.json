@@ -121,7 +121,7 @@
                 "[resourceId('Microsoft.Web/sites', variables('functionName'))]"
             ],
             "properties": {
-                "powerShellVersion": "~7.4"
+                "powerShellVersion": "~7.4.0"
             }
         },
         {
